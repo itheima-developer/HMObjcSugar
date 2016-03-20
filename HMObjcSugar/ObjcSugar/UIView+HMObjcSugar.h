@@ -28,4 +28,8 @@
 /// frame 尺寸 height
 @property (nonatomic) CGFloat hm_height;
 
+#pragma mark - 截屏
+/// 当前视图内容生成的图像
+@property (nonatomic, readonly, nullable)UIImage *hm_capturedImage;
+
 @end

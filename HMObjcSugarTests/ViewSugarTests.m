@@ -66,4 +66,27 @@
     XCTAssert(CGRectEqualToRect(rect, view.frame), @"frame 不一致");
 }
 
+- (void)testCapturedImage {
+    
+    CGFloat w = arc4random_uniform([UIScreen hm_screenWidth]);
+    CGFloat h = arc4random_uniform([UIScreen hm_screenHeight]);
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, w, h)];
+    UIImage *image = [view hm_capturedImage];
+    
+    XCTAssert(CGSizeEqualToSize(image.size, CGSizeMake(w, h)), @"图像尺寸错误");
+}
+
+- (void)testCapturedImagePerformance {
+    
+    [self measureBlock:^{
+        CGFloat w = arc4random_uniform([UIScreen hm_screenWidth]);
+        CGFloat h = arc4random_uniform([UIScreen hm_screenHeight]);
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, w, h)];
+        view.backgroundColor = [UIColor hm_randomColor];
+        
+        [view hm_capturedImage];
+    }];
+}
+
 @end

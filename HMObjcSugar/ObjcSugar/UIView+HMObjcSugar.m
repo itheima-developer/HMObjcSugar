@@ -73,4 +73,19 @@
     self.frame = newFrame;
 }
 
+#pragma mark - 截屏
+- (UIImage *)hm_capturedImage {
+    
+    UIGraphicsBeginImageContextWithOptions(self.bounds.size, YES, 0);
+    
+    UIImage *result = nil;
+    if ([self drawViewHierarchyInRect:self.bounds afterScreenUpdates:YES]) {
+        result = UIGraphicsGetImageFromCurrentImageContext();
+    }
+    
+    UIGraphicsEndImageContext();
+    
+    return result;
+}
+
 @end
