@@ -6,5 +6,6 @@
 //  Copyright © 2016年 itcast. All rights reserved.
 //
 
-#import "UIColor+HMObjcSugar.h"
+#import "UIScreen+HMObjcSugar.h"
 #import "UIView+HMObjcSugar.h"
+#import "UIColor+HMObjcSugar.h"
