@@ -13,3 +13,6 @@
 
 #import "UIColor+HMObjcSugar.h"
 #import "UIImage+HMObjcSugar.h"
+
+#import "NSBundle+HMObjcSugar.h"
+

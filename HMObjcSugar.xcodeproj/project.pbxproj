@@ -18,12 +18,13 @@
 		C237AA611C9F8E870008B377 /* LabelSugarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AA601C9F8E870008B377 /* LabelSugarTests.m */; };
 		C237AA641C9F9AC60008B377 /* UIButton+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AA631C9F9AC60008B377 /* UIButton+HMObjcSugar.m */; };
 		C237AA661C9FA30F0008B377 /* ButtonSugarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AA651C9FA30F0008B377 /* ButtonSugarTests.m */; };
+		C237AA691C9FAE7B0008B377 /* NSBundle+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AA681C9FAE7B0008B377 /* NSBundle+HMObjcSugar.m */; };
+		C237AA6B1C9FAF3B0008B377 /* BundleSugarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AA6A1C9FAF3B0008B377 /* BundleSugarTests.m */; };
 		C2C53ED11C9E2678006DB9DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C53ED01C9E2678006DB9DB /* main.m */; };
 		C2C53ED41C9E2678006DB9DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C53ED31C9E2678006DB9DB /* AppDelegate.m */; };
 		C2C53ED71C9E2678006DB9DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C53ED61C9E2678006DB9DB /* ViewController.m */; };
 		C2C53EDA1C9E2678006DB9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C53ED81C9E2678006DB9DB /* Main.storyboard */; };
 		C2C53EDC1C9E2678006DB9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C53EDB1C9E2678006DB9DB /* Assets.xcassets */; };
-		C2C53EDF1C9E2678006DB9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C53EDD1C9E2678006DB9DB /* LaunchScreen.storyboard */; };
 		C2C53EF81C9E2AA1006DB9DB /* UIColor+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C53EF71C9E2AA1006DB9DB /* UIColor+HMObjcSugar.m */; };
 		C2C53EF91C9E2BD0006DB9DB /* UIColor+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C53EF71C9E2AA1006DB9DB /* UIColor+HMObjcSugar.m */; };
 		C2C53EFB1C9E2BF0006DB9DB /* ColorSugarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C53EFA1C9E2BEF006DB9DB /* ColorSugarTests.m */; };
@@ -55,6 +56,9 @@
 		C237AA621C9F9AC60008B377 /* UIButton+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HMObjcSugar.h"; sourceTree = "<group>"; };
 		C237AA631C9F9AC60008B377 /* UIButton+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HMObjcSugar.m"; sourceTree = "<group>"; };
 		C237AA651C9FA30F0008B377 /* ButtonSugarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonSugarTests.m; sourceTree = "<group>"; };
+		C237AA671C9FAE7A0008B377 /* NSBundle+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+HMObjcSugar.h"; sourceTree = "<group>"; };
+		C237AA681C9FAE7B0008B377 /* NSBundle+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+HMObjcSugar.m"; sourceTree = "<group>"; };
+		C237AA6A1C9FAF3B0008B377 /* BundleSugarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleSugarTests.m; sourceTree = "<group>"; };
 		C2C53ECC1C9E2678006DB9DB /* HMObjcSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMObjcSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C53ED01C9E2678006DB9DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2C53ED21C9E2678006DB9DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,7 +67,6 @@
 		C2C53ED61C9E2678006DB9DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C2C53ED91C9E2678006DB9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2C53EDB1C9E2678006DB9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C2C53EDE1C9E2678006DB9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2C53EE01C9E2678006DB9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C53EE51C9E2678006DB9DB /* HMObjcSugarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMObjcSugarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C53EEB1C9E2678006DB9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,7 +122,6 @@
 				C2C53ED61C9E2678006DB9DB /* ViewController.m */,
 				C2C53ED81C9E2678006DB9DB /* Main.storyboard */,
 				C2C53EDB1C9E2678006DB9DB /* Assets.xcassets */,
-				C2C53EDD1C9E2678006DB9DB /* LaunchScreen.storyboard */,
 				C2C53EE01C9E2678006DB9DB /* Info.plist */,
 				C2C53ECF1C9E2678006DB9DB /* Supporting Files */,
 			);
@@ -143,6 +145,7 @@
 				C237AA651C9FA30F0008B377 /* ButtonSugarTests.m */,
 				C237AA5B1C9F8B210008B377 /* ImageSugarTests.m */,
 				C2C53EFA1C9E2BEF006DB9DB /* ColorSugarTests.m */,
+				C237AA6A1C9FAF3B0008B377 /* BundleSugarTests.m */,
 				C2C53EEB1C9E2678006DB9DB /* Info.plist */,
 			);
 			path = HMObjcSugarTests;
@@ -164,6 +167,8 @@
 				C237AA591C9F89D70008B377 /* UIImage+HMObjcSugar.m */,
 				C2C53EF61C9E2AA1006DB9DB /* UIColor+HMObjcSugar.h */,
 				C2C53EF71C9E2AA1006DB9DB /* UIColor+HMObjcSugar.m */,
+				C237AA671C9FAE7A0008B377 /* NSBundle+HMObjcSugar.h */,
+				C237AA681C9FAE7B0008B377 /* NSBundle+HMObjcSugar.m */,
 			);
 			path = ObjcSugar;
 			sourceTree = "<group>";
@@ -248,7 +253,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2C53EDF1C9E2678006DB9DB /* LaunchScreen.storyboard in Resources */,
 				C2C53EDC1C9E2678006DB9DB /* Assets.xcassets in Resources */,
 				C2C53EDA1C9E2678006DB9DB /* Main.storyboard in Resources */,
 			);
@@ -272,6 +276,7 @@
 				C237AA551C9EBA9F0008B377 /* UIScreen+HMObjcSugar.m in Sources */,
 				C2C53EF81C9E2AA1006DB9DB /* UIColor+HMObjcSugar.m in Sources */,
 				C237AA5A1C9F89D70008B377 /* UIImage+HMObjcSugar.m in Sources */,
+				C237AA691C9FAE7B0008B377 /* NSBundle+HMObjcSugar.m in Sources */,
 				C2C53ED41C9E2678006DB9DB /* AppDelegate.m in Sources */,
 				C237AA4D1C9EAF0A0008B377 /* UIView+HMObjcSugar.m in Sources */,
 				C237AA641C9F9AC60008B377 /* UIButton+HMObjcSugar.m in Sources */,
@@ -284,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C237AA6B1C9FAF3B0008B377 /* BundleSugarTests.m in Sources */,
 				C2C53EFB1C9E2BF0006DB9DB /* ColorSugarTests.m in Sources */,
 				C237AA571C9EBB660008B377 /* ScreenSugarTests.m in Sources */,
 				C237AA611C9F8E870008B377 /* LabelSugarTests.m in Sources */,
@@ -312,14 +318,6 @@
 				C2C53ED91C9E2678006DB9DB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C2C53EDD1C9E2678006DB9DB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2C53EDE1C9E2678006DB9DB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = HMObjcSugar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -423,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = HMObjcSugar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
