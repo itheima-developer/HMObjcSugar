@@ -15,4 +15,5 @@
 #import "UIImage+HMObjcSugar.h"
 
 #import "NSBundle+HMObjcSugar.h"
+#import "NSDate+HMObjcSugar.h"
 
