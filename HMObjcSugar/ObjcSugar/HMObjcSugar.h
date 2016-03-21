@@ -16,4 +16,5 @@
 
 #import "NSBundle+HMObjcSugar.h"
 #import "NSDate+HMObjcSugar.h"
+#import "NSString+HMObjcSugar.h"
 

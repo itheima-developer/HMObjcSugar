@@ -32,7 +32,7 @@
 - (void)testLaunchImage {
     UIImage *image = [NSBundle hm_launchImage];
     
-    XCTAssertNotNil(image, @"无法找到匹配的启动图片");
+    XCTAssert(image != nil, @"无法找到匹配的启动图片");
     XCTAssert(CGSizeEqualToSize(image.size, [UIScreen mainScreen].bounds.size), @"启动图片尺寸不正确");
 }
 
