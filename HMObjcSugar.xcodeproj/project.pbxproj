@@ -12,6 +12,8 @@
 		C237AA521C9EAFD30008B377 /* ViewSugarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AA511C9EAFD30008B377 /* ViewSugarTests.m */; };
 		C237AA551C9EBA9F0008B377 /* UIScreen+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AA541C9EBA9F0008B377 /* UIScreen+HMObjcSugar.m */; };
 		C237AA571C9EBB660008B377 /* ScreenSugarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AA561C9EBB660008B377 /* ScreenSugarTests.m */; };
+		C237AA5A1C9F89D70008B377 /* UIImage+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AA591C9F89D70008B377 /* UIImage+HMObjcSugar.m */; };
+		C237AA5C1C9F8B210008B377 /* ImageSugarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AA5B1C9F8B210008B377 /* ImageSugarTests.m */; };
 		C2C53ED11C9E2678006DB9DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C53ED01C9E2678006DB9DB /* main.m */; };
 		C2C53ED41C9E2678006DB9DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C53ED31C9E2678006DB9DB /* AppDelegate.m */; };
 		C2C53ED71C9E2678006DB9DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C53ED61C9E2678006DB9DB /* ViewController.m */; };
@@ -40,6 +42,9 @@
 		C237AA531C9EBA9F0008B377 /* UIScreen+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+HMObjcSugar.h"; sourceTree = "<group>"; };
 		C237AA541C9EBA9F0008B377 /* UIScreen+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+HMObjcSugar.m"; sourceTree = "<group>"; };
 		C237AA561C9EBB660008B377 /* ScreenSugarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenSugarTests.m; sourceTree = "<group>"; };
+		C237AA581C9F89D70008B377 /* UIImage+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HMObjcSugar.h"; sourceTree = "<group>"; };
+		C237AA591C9F89D70008B377 /* UIImage+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HMObjcSugar.m"; sourceTree = "<group>"; };
+		C237AA5B1C9F8B210008B377 /* ImageSugarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSugarTests.m; sourceTree = "<group>"; };
 		C2C53ECC1C9E2678006DB9DB /* HMObjcSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMObjcSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C53ED01C9E2678006DB9DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2C53ED21C9E2678006DB9DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +130,7 @@
 				C2C53EFA1C9E2BEF006DB9DB /* ColorSugarTests.m */,
 				C237AA511C9EAFD30008B377 /* ViewSugarTests.m */,
 				C237AA561C9EBB660008B377 /* ScreenSugarTests.m */,
+				C237AA5B1C9F8B210008B377 /* ImageSugarTests.m */,
 				C2C53EEB1C9E2678006DB9DB /* Info.plist */,
 			);
 			path = HMObjcSugarTests;
@@ -140,6 +146,8 @@
 				C237AA4C1C9EAF0A0008B377 /* UIView+HMObjcSugar.m */,
 				C237AA531C9EBA9F0008B377 /* UIScreen+HMObjcSugar.h */,
 				C237AA541C9EBA9F0008B377 /* UIScreen+HMObjcSugar.m */,
+				C237AA581C9F89D70008B377 /* UIImage+HMObjcSugar.h */,
+				C237AA591C9F89D70008B377 /* UIImage+HMObjcSugar.m */,
 			);
 			path = ObjcSugar;
 			sourceTree = "<group>";
@@ -247,6 +255,7 @@
 				C2C53ED71C9E2678006DB9DB /* ViewController.m in Sources */,
 				C237AA551C9EBA9F0008B377 /* UIScreen+HMObjcSugar.m in Sources */,
 				C2C53EF81C9E2AA1006DB9DB /* UIColor+HMObjcSugar.m in Sources */,
+				C237AA5A1C9F89D70008B377 /* UIImage+HMObjcSugar.m in Sources */,
 				C2C53ED41C9E2678006DB9DB /* AppDelegate.m in Sources */,
 				C237AA4D1C9EAF0A0008B377 /* UIView+HMObjcSugar.m in Sources */,
 				C2C53ED11C9E2678006DB9DB /* main.m in Sources */,
@@ -259,6 +268,7 @@
 			files = (
 				C2C53EFB1C9E2BF0006DB9DB /* ColorSugarTests.m in Sources */,
 				C237AA571C9EBB660008B377 /* ScreenSugarTests.m in Sources */,
+				C237AA5C1C9F8B210008B377 /* ImageSugarTests.m in Sources */,
 				C2C53EF91C9E2BD0006DB9DB /* UIColor+HMObjcSugar.m in Sources */,
 				C237AA501C9EAF8E0008B377 /* UIView+HMObjcSugar.m in Sources */,
 				C237AA521C9EAFD30008B377 /* ViewSugarTests.m in Sources */,

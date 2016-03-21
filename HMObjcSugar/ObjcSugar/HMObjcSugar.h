@@ -9,3 +9,4 @@
 #import "UIScreen+HMObjcSugar.h"
 #import "UIView+HMObjcSugar.h"
 #import "UIColor+HMObjcSugar.h"
+#import "UIImage+HMObjcSugar.h"
