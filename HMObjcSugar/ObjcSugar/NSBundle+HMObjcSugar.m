@@ -18,10 +18,6 @@
     
     NSArray *launchImages = [NSBundle mainBundle].infoDictionary[@"UILaunchImages"];
     
-    if (launchImages == nil) {
-        return nil;
-    }
-    
     NSString *sizeString = NSStringFromCGSize([UIScreen mainScreen].bounds.size);
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"UILaunchImageOrientation = 'Portrait' AND UILaunchImageSize = %@", sizeString];
     NSArray *result = [launchImages filteredArrayUsingPredicate:predicate];
