@@ -23,6 +23,7 @@
 }
 
 + (instancetype)hm_labelWithText:(NSString *)text fontSize:(CGFloat)fontSize textColor:(UIColor *)textColor alignment:(NSTextAlignment)alignment {
+    
     UILabel *label = [[self alloc] init];
     
     label.text = text;
