@@ -10,6 +10,7 @@
 #import "UIView+HMObjcSugar.h"
 #import "UILabel+HMObjcSugar.h"
 #import "UIButton+HMObjcSugar.h"
+#import "UITextField+HMObjcSugar.h"
 
 #import "UIColor+HMObjcSugar.h"
 #import "UIImage+HMObjcSugar.h"

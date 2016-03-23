@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C212EF671CA3305B0016E4EB /* UITextField+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C212EF661CA3305B0016E4EB /* UITextField+HMObjcSugar.m */; };
+		C212EF691CA331100016E4EB /* TextFieldSugarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C212EF681CA331100016E4EB /* TextFieldSugarTests.m */; };
 		C237AA4D1C9EAF0A0008B377 /* UIView+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AA4C1C9EAF0A0008B377 /* UIView+HMObjcSugar.m */; };
 		C237AA521C9EAFD30008B377 /* ViewSugarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AA511C9EAFD30008B377 /* ViewSugarTests.m */; };
 		C237AA551C9EBA9F0008B377 /* UIScreen+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AA541C9EBA9F0008B377 /* UIScreen+HMObjcSugar.m */; };
@@ -43,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C212EF651CA3305B0016E4EB /* UITextField+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HMObjcSugar.h"; sourceTree = "<group>"; };
+		C212EF661CA3305B0016E4EB /* UITextField+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HMObjcSugar.m"; sourceTree = "<group>"; };
+		C212EF681CA331100016E4EB /* TextFieldSugarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldSugarTests.m; sourceTree = "<group>"; };
 		C237AA4B1C9EAF0A0008B377 /* UIView+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HMObjcSugar.h"; sourceTree = "<group>"; };
 		C237AA4C1C9EAF0A0008B377 /* UIView+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HMObjcSugar.m"; sourceTree = "<group>"; };
 		C237AA511C9EAFD30008B377 /* ViewSugarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewSugarTests.m; sourceTree = "<group>"; };
@@ -151,6 +156,7 @@
 				C237AA511C9EAFD30008B377 /* ViewSugarTests.m */,
 				C237AA601C9F8E870008B377 /* LabelSugarTests.m */,
 				C237AA651C9FA30F0008B377 /* ButtonSugarTests.m */,
+				C212EF681CA331100016E4EB /* TextFieldSugarTests.m */,
 				C237AA5B1C9F8B210008B377 /* ImageSugarTests.m */,
 				C2C53EFA1C9E2BEF006DB9DB /* ColorSugarTests.m */,
 				C237AA6A1C9FAF3B0008B377 /* BundleSugarTests.m */,
@@ -173,6 +179,8 @@
 				C237AA5E1C9F8D960008B377 /* UILabel+HMObjcSugar.m */,
 				C237AA621C9F9AC60008B377 /* UIButton+HMObjcSugar.h */,
 				C237AA631C9F9AC60008B377 /* UIButton+HMObjcSugar.m */,
+				C212EF651CA3305B0016E4EB /* UITextField+HMObjcSugar.h */,
+				C212EF661CA3305B0016E4EB /* UITextField+HMObjcSugar.m */,
 				C237AA581C9F89D70008B377 /* UIImage+HMObjcSugar.h */,
 				C237AA591C9F89D70008B377 /* UIImage+HMObjcSugar.m */,
 				C2C53EF61C9E2AA1006DB9DB /* UIColor+HMObjcSugar.h */,
@@ -289,6 +297,7 @@
 				C2C53ED71C9E2678006DB9DB /* ViewController.m in Sources */,
 				C237AA551C9EBA9F0008B377 /* UIScreen+HMObjcSugar.m in Sources */,
 				C2C53EF81C9E2AA1006DB9DB /* UIColor+HMObjcSugar.m in Sources */,
+				C212EF671CA3305B0016E4EB /* UITextField+HMObjcSugar.m in Sources */,
 				C237AA5A1C9F89D70008B377 /* UIImage+HMObjcSugar.m in Sources */,
 				C237AA6E1C9FBDC80008B377 /* NSDate+HMObjcSugar.m in Sources */,
 				C237AA691C9FAE7B0008B377 /* NSBundle+HMObjcSugar.m in Sources */,
@@ -313,6 +322,7 @@
 				C237AA5C1C9F8B210008B377 /* ImageSugarTests.m in Sources */,
 				C237AA661C9FA30F0008B377 /* ButtonSugarTests.m in Sources */,
 				C237AA701C9FC0240008B377 /* DateSugarTests.m in Sources */,
+				C212EF691CA331100016E4EB /* TextFieldSugarTests.m in Sources */,
 				C237AA521C9EAFD30008B377 /* ViewSugarTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
