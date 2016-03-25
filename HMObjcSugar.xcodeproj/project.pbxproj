@@ -25,6 +25,7 @@
 		C237AA701C9FC0240008B377 /* DateSugarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AA6F1C9FC0240008B377 /* DateSugarTests.m */; };
 		C237AAA71C9FD5410008B377 /* NSString+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AAA61C9FD5410008B377 /* NSString+HMObjcSugar.m */; };
 		C237AAAB1C9FDEDE0008B377 /* StringSugarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C237AAAA1C9FDEDE0008B377 /* StringSugarTests.m */; };
+		C2BE24351CA5A8F100C773D8 /* UINavigationController+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BE24341CA5A8F100C773D8 /* UINavigationController+HMObjcSugar.m */; };
 		C2C53ED11C9E2678006DB9DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C53ED01C9E2678006DB9DB /* main.m */; };
 		C2C53ED41C9E2678006DB9DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C53ED31C9E2678006DB9DB /* AppDelegate.m */; };
 		C2C53ED71C9E2678006DB9DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C53ED61C9E2678006DB9DB /* ViewController.m */; };
@@ -72,6 +73,8 @@
 		C237AAA51C9FD5410008B377 /* NSString+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HMObjcSugar.h"; sourceTree = "<group>"; };
 		C237AAA61C9FD5410008B377 /* NSString+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HMObjcSugar.m"; sourceTree = "<group>"; };
 		C237AAAA1C9FDEDE0008B377 /* StringSugarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringSugarTests.m; sourceTree = "<group>"; };
+		C2BE24331CA5A8F100C773D8 /* UINavigationController+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HMObjcSugar.h"; sourceTree = "<group>"; };
+		C2BE24341CA5A8F100C773D8 /* UINavigationController+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HMObjcSugar.m"; sourceTree = "<group>"; };
 		C2C53ECC1C9E2678006DB9DB /* HMObjcSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMObjcSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C53ED01C9E2678006DB9DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2C53ED21C9E2678006DB9DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -191,6 +194,8 @@
 				C237AA6D1C9FBDC80008B377 /* NSDate+HMObjcSugar.m */,
 				C237AAA51C9FD5410008B377 /* NSString+HMObjcSugar.h */,
 				C237AAA61C9FD5410008B377 /* NSString+HMObjcSugar.m */,
+				C2BE24331CA5A8F100C773D8 /* UINavigationController+HMObjcSugar.h */,
+				C2BE24341CA5A8F100C773D8 /* UINavigationController+HMObjcSugar.m */,
 			);
 			path = ObjcSugar;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 				C2C53ED71C9E2678006DB9DB /* ViewController.m in Sources */,
 				C237AA551C9EBA9F0008B377 /* UIScreen+HMObjcSugar.m in Sources */,
 				C2C53EF81C9E2AA1006DB9DB /* UIColor+HMObjcSugar.m in Sources */,
+				C2BE24351CA5A8F100C773D8 /* UINavigationController+HMObjcSugar.m in Sources */,
 				C212EF671CA3305B0016E4EB /* UITextField+HMObjcSugar.m in Sources */,
 				C237AA5A1C9F89D70008B377 /* UIImage+HMObjcSugar.m in Sources */,
 				C237AA6E1C9FBDC80008B377 /* NSDate+HMObjcSugar.m in Sources */,
